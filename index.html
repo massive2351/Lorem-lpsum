@@ -10,20 +10,37 @@
 </head>
 <body>
    <!--ナビ-->
-  <div class="head-nav">
-    <nav>
-      <ul>
-        <li class="nav-text">Mysite</li>
-        <li class="nav-text">Portfolio</li>
-        <li class="nav-text">Profile</li>
-        <li class="nav-text">Contact</li>
-      </ul>
-
-    </nav>
+   <div class="container">
+    <div class="head-nav">
+      <a href="#id1">
+        <img class="logo" src="image/logo.png">
+      </a>
+      <div class="menu-box">
+        <span class="list-bar"></span>
+        <span class="list-bar"></span>
+        <span class="list-bar"></span>
+        <span class="list-bar"></span>
+      </div>
+      <nav>
+        <ul class="nav">
+          <li class="list-bar">
+            <a href="#section1" class="list-a">Portfolio</a>
+          </li>
+          <li class="list-bar">
+            <a href="#section2" class="list-a">Feature</a>
+          </li>
+          <li class="list-bar">
+            <a href="#section3" class="list-a">Profile</a>
+          </li>
+          <li class="list-bar">
+            <a href="#section4" class="list-a">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
-
   <!--ヘッド-->
-  <head>
+  <head id="id1">
     <div class="head-container">
       <img src="image/mv.png" class="head-image">
       <p class="head-text1">Lorem ipsum</p>
@@ -33,7 +50,7 @@
 
   <main>
     <!--ポートフォリオ-->
-    <section>
+    <section id="section1">
       <div class="portfolio">
         <div class="portfolio-text">
           <p class="portfolio-text1">Portfolio</p>
@@ -59,7 +76,7 @@
     </section>
 
     <!--フューチャー-->
-    <section class="section2">
+    <section id="section2">
       <div class="feature">
         <p class="feature-text1">Feature</p>
         <p class="portfolio-border"></p>
@@ -90,7 +107,7 @@
       </div>
     </section>
     <!--プロフイール-->
-    <section class="section3">
+    <section id="section3">
       <div class="profile">
         <div class="profile-heading">
           <p class="profile-text1">Profile</p>
@@ -116,7 +133,7 @@
     </section>
 
     <!--コンタクト-->
-    <section class="section4">
+    <section id="section4">
       <div class="contact">
         <div class="contact-heading">
           <p class="contact-text1">Contact</p>
@@ -137,16 +154,19 @@
           <div class="contact2">
             <p class="contact1-title">SNS</p>
             <div class="sns-icon">
-              
+              <i class="fab fa-facebook-f fa-4x"></i>
+              <i class="fab fa-twitter fa-4x"></i>
+              <i class="fab fa-instagram fa-4x"></i>
             </div>
-
           </div>
         </div>
       </div>
     </section>
-
   </main>
-  <footer></footer>
+
+  <footer>
+    <p class="footer-text">©︎ 2017 WebCamp</p>
+  </footer>
   
 </body>
 </html>
